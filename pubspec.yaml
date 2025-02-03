@@ -1,0 +1,33 @@
+name: flutter_application_2
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  go_router: ^14.7.1
+  mobx: ^2.5.0
+  flutter_mobx: ^2.3.0
+  supabase_flutter: ^2.8.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.14
+  mobx_codegen: ^2.7.0
+
+flutter:
+  uses-material-design: true 
+
+assets:
+  -assets/napoleon.png
+  -assets/shok.png
+  -assets/med.png
+  -assets/yagoda.png
+  -assets/chiz.png
+  -assets/muss.png
